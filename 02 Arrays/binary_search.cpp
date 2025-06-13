@@ -32,6 +32,7 @@ int main(){
 	int n = sizeof(arr)/sizeof(int);
 
 	int key;
+	cout<<"Enter key:";
 	cin>>key;
 
 	int index = binary_search(arr,n,key);
